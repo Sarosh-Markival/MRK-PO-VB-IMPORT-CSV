@@ -1,0 +1,38 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+  <projectname>TransactionToCSVModule</projectname>
+  <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="true">SERVERSIDESCRIPTING</feature>
+      <feature required="false">CRM</feature>
+      <feature required="false">CREATESUITEBUNDLES</feature>
+      <feature required="true">PURCHASEORDERS</feature>
+    </features>
+    <objects>
+      <object>custbody_11187_pref_entity_bank</object>
+      <object>custbody_sps_ponum_from_salesorder</object>
+      <object>customrecord_avaentityusecodes</object>
+      <object>customlist_operation_type</object>
+      <object>custbody_rfs_order_score</object>
+      <object>custbody_11724_pay_bank_fees</object>
+      <object>custbody_ava_billtousecode</object>
+      <object>custbody_4599_mx_operation_type</object>
+      <object>customlist_sps_po_acknowledgment</object>
+      <object>custbody_ava_shipto_longitude</object>
+      <object>custbodyintegrationstatus</object>
+      <object>custbody_sps_acknowledgement_status</object>
+      <object>custbody_ava_billto_longitude</object>
+      <object>custbody_ava_shiptousecode</object>
+      <object>customlistintegrationstatuses</object>
+      <object>custbody_cps_bdc_sync_status_list_view</object>
+      <object>custbody_nsts_vp_prepay_total</object>
+      <object>customrecord_2663_entity_bank_details</object>
+      <object>custbody_4599_sg_import_permit_num</object>
+      <object>custbody_ava_billto_latitude</object>
+      <object>custbody_ava_shipto_latitude</object>
+      <object>custbody_my_import_declaration_num</object>
+      <object>custform_189_4098707_725</object>
+      <object>custbody_11724_bank_fee</object>
+    </objects>
+  </dependencies>
+</manifest>

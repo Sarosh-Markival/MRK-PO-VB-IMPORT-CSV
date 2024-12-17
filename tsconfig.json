@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "target": "es2020",
+    "sourceMap": false,
+    "baseUrl": ".",
+    "paths": {
+      "N": [
+        "node_modules/@hitc/netsuite-types/N"
+      ],
+      "N/*": [
+        "node_modules/@hitc/netsuite-types/N/*"
+      ],
+      "xlsx": [
+        "node_module/xlsx"
+      ],
+      "papaparse": [
+        "node_module/papaparse"
+      ]
+    },
+    "outDir": "src/FileCabinet/SuiteScripts/MRKTransactionToCSVModule",
+    "moduleResolution": "Node"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
